@@ -1,0 +1,39 @@
+{
+  "name": "csv-export-pro",
+  "version": "1.1.1",
+  "description": "Advanced CSV export for Budibase 3.4+: pick a data provider/table, design Excel-like column headers, map/transform columns with JavaScript, and export UTF-8 (BOM) CSV with correct Thai characters.",
+  "author": "Thanakrit Yaemsuk",
+  "license": "MIT",
+  "keywords": [
+    "budibase",
+    "budibase-plugin",
+    "component",
+    "csv",
+    "export",
+    "excel",
+    "utf-8",
+    "thai"
+  ],
+  "svelte": "index.js",
+  "module": "dist/plugin.min.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -cw"
+  },
+  "dependencies": {
+    "@crownframework/svelte-error-boundary": "^1.0.3",
+    "svelte": "^3.49.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^18.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.2.1",
+    "postcss": "^8.2.10",
+    "rollup": "^2.79.1",
+    "rollup-plugin-polyfill-node": "^0.8.0",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "tar": "^6.1.11"
+  }
+}
