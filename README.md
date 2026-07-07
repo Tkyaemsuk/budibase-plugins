@@ -24,7 +24,7 @@ Building reusable components and automation tools for Budibase applications.
 
 This repository contains custom plugins developed for:
 
-## :contentReference[oaicite:0]{index=0} v3.4.1
+## Budibase v3.4.1
 
 The goal is to extend Budibase capabilities by creating custom components,
 data tools, and workflow utilities.
