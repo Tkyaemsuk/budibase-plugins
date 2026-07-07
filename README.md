@@ -120,12 +120,14 @@ Budibase Plugin API
 budibase-custom-plugin
 
 │
-├── csv-export-pro
-│   │
-│   ├── src
-│   ├── ExportCSV.svelte
-│   ├── plugin.js
-│   └── plugin.json
+├── csv-export-pro/
+├── src/
+│   └── ExportCSV.svelte
+├── plugin.js
+├── plugin.json
+├── package.json
+├── rollup.config.js
+└── README.md
 │
 │
 └── pdf-converter
