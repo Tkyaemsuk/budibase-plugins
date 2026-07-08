@@ -1,0 +1,78 @@
+{
+  "type": "component",
+  "metadata": {},
+  "schema": {
+    "name": "csv-export-pro",
+    "friendlyName": "CSV Export Pro",
+    "description": "Export data from a data provider to CSV with an Excel-like column-header designer, per-column JavaScript transforms, and UTF-8 (BOM) output that keeps Thai characters intact.",
+    "icon": "Download",
+    "settings": [
+      {
+        "type": "dataProvider",
+        "label": "Data provider",
+        "key": "dataProvider",
+        "required": true
+      },
+      {
+        "type": "text",
+        "label": "Button text",
+        "key": "buttonText",
+        "defaultValue": "Export Csv"
+      },
+      {
+        "type": "text",
+        "label": "File name (no extension)",
+        "key": "filename",
+        "defaultValue": "export"
+      },
+      {
+        "type": "select",
+        "label": "Delimiter",
+        "key": "delimiter",
+        "defaultValue": "comma",
+        "options": [
+          { "label": "Comma  ( , )", "value": "comma" },
+          { "label": "Semicolon  ( ; )", "value": "semicolon" },
+          { "label": "Tab", "value": "tab" }
+        ]
+      },
+      {
+        "type": "boolean",
+        "label": "UTF-8 BOM (fixes Thai in Excel)",
+        "key": "includeBom",
+        "defaultValue": true
+      },
+      {
+        "type": "boolean",
+        "label": "Show column designer button",
+        "key": "allowDesigner",
+        "defaultValue": true
+      },
+      {
+        "type": "text",
+        "label": "Config key (persist design)",
+        "key": "configKey"
+      },
+      {
+        "type": "select",
+        "label": "Button size",
+        "key": "buttonSize",
+        "defaultValue": "M",
+        "options": [
+          { "label": "Small", "value": "S" },
+          { "label": "Medium", "value": "M" },
+          { "label": "Large", "value": "L" }
+        ]
+      },
+      {
+        "type": "event",
+        "label": "On export",
+        "key": "onExport",
+        "context": [
+          { "label": "Row count", "key": "rowCount" },
+          { "label": "File name", "key": "fileName" }
+        ]
+      }
+    ]
+  }
+}
