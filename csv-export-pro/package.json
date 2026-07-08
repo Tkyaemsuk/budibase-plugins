@@ -1,7 +1,7 @@
 {
   "name": "csv-export-pro",
-  "version": "1.1.1",
-  "description": "Advanced CSV export for Budibase 3.4+: pick a data provider/table, design Excel-like column headers, map/transform columns with JavaScript, and export UTF-8 (BOM) CSV with correct Thai characters.",
+  "version": "1.2.0",
+  "description": "Advanced CSV export for Budibase 3.4+: pick a data provider/table, design Excel-like column headers with merge & center, JS or SQL transforms, export UTF-8 (BOM) CSV, and print a document-numbered, watermarked preview that fits the screen or scrolls when there are many columns.",
   "author": "Thanakrit Yaemsuk",
   "license": "MIT",
   "keywords": [

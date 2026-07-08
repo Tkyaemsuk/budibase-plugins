@@ -9,7 +9,7 @@
     "settings": [
       {
         "type": "dataProvider",
-        "label": "Data provider",
+        "label": "Data provider / Table",
         "key": "dataProvider",
         "required": true
       },
@@ -63,6 +63,42 @@
           { "label": "Medium", "value": "M" },
           { "label": "Large", "value": "L" }
         ]
+      },
+      {
+        "type": "boolean",
+        "label": "Show Print Preview button",
+        "key": "allowPrintPreview",
+        "defaultValue": true
+      },
+      {
+        "type": "text",
+        "label": "Print title",
+        "key": "printTitle",
+        "defaultValue": ""
+      },
+      {
+        "type": "text",
+        "label": "Document number",
+        "key": "documentNumber",
+        "defaultValue": ""
+      },
+      {
+        "type": "text",
+        "label": "Document number label",
+        "key": "documentNumberLabel",
+        "defaultValue": "Document No."
+      },
+      {
+        "type": "text",
+        "label": "Watermark (image URL or base64 data URI)",
+        "key": "watermarkSource",
+        "defaultValue": ""
+      },
+      {
+        "type": "number",
+        "label": "Watermark opacity (0-1)",
+        "key": "watermarkOpacity",
+        "defaultValue": 0.12
       },
       {
         "type": "event",
